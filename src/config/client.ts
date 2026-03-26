@@ -79,11 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Anna Peters", rating: 5, text: "Jules and his team helped us with a full garden redesign. They were great to work with - respectful, flexible and we are very happy with the final result. ", date: "6 months ago" },
-    { name: "Sara Rowland", rating: 5, text: "Cotton & Sons recently did some work on my garden including taming some very unruly ivy. They were friendly, reliable, efficient and did a great job. I highly recommend and will definitely use again.  ", date: "4 years ago" },
-    { name: "E Marks", rating: 5, text: "Cotton and Son installed a 20+M squared patio in our hilly garden. Which meant digging down to create the level area, installing a retaining wall as well as a lovely raised bed. Practical, patient and efficient job done. Garden left tidy …  ", date: "3 years ago" },
-    { name: "Nick Hale", rating: 5, text: "Jules did a great job on our new patio and inset paved steps. Great quality of work and reasonably priced!  ", date: "3 years ago" },
-    { name: "Nick Price", rating: 5, text: "Really pleased with the service we received - design and installation of high quality raised beds and replacement of garden shed roof. Would recommend.  ", date: "3 years ago" },
+    { name: "Anna Peters", rating: 5, text: "Jules and his team helped us with a full garden redesign. They were great to work with - respectful, flexible and we are very happy with the final result.", date: "6 months ago" },
+    { name: "Erin Burns", rating: 5, text: "We really enjoyed working with Jules. We are very pleased with the end result and are happy to recommend him and his team.", date: "a year ago", badge: "Local Guide" },
+    { name: "Jonathan Gaskell", rating: 5, text: "It was pleasure to have Julian working at our place laying a patio. He was very respectful of keeping our house and garden tidy while using the amenities. And his work is to a high standard. We're very pleased with his work 😀 …", date: "a year ago" },
+    { name: "Kirsty Maguire", rating: 5, text: "Jules laid artificial grass in our garden and we’re absolutely delighted. We were so impressed with Jules professionalism, hard work and attention to detail. He has completely transformed our outdoor space. Could not recommend more highly.", date: "a year ago" },
+    { name: "Jon Mitchell", rating: 5, text: "Jules and his team did a fantastic job, keeping us well-informed, calm and cheerful in what turned out to be a complex job. Would definitely use them again - in fact we are planning to do just that.", date: "a year ago" },
+    { name: "Helen Cockle", rating: 5, text: "Jules and his team have been superb - we hired them for a large landscaping project that included removing trees, digging boarders, laying paths, installing decking, adding an astro-pitch for our son, two ponds and even lighting the whole garden. They completed it all to a beautiful standard and were incredibly reasonably priced too. They were out there in all weathers and were always prompt with their time. They did such a good job our neighbour booked to use them too. 5 star rating all day long.", date: "a year ago", badge: "Local Guide" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
