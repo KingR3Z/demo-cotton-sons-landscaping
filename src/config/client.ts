@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "5",
 
   // Services
   services: [
@@ -79,9 +79,11 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Anna Peters", rating: 5, text: "Jules and his team helped us with a full garden redesign. They were great to work with - respectful, flexible and we are very happy with the final result. ", date: "6 months ago" },
+    { name: "Sara Rowland", rating: 5, text: "Cotton & Sons recently did some work on my garden including taming some very unruly ivy. They were friendly, reliable, efficient and did a great job. I highly recommend and will definitely use again.  ", date: "4 years ago" },
+    { name: "E Marks", rating: 5, text: "Cotton and Son installed a 20+M squared patio in our hilly garden. Which meant digging down to create the level area, installing a retaining wall as well as a lovely raised bed. Practical, patient and efficient job done. Garden left tidy …  ", date: "3 years ago" },
+    { name: "Nick Hale", rating: 5, text: "Jules did a great job on our new patio and inset paved steps. Great quality of work and reasonably priced!  ", date: "3 years ago" },
+    { name: "Nick Price", rating: 5, text: "Really pleased with the service we received - design and installation of high quality raised beds and replacement of garden shed roof. Would recommend.  ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
